@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 0;
+        }
+
+        #boss {
+            background-color: rgb(242, 227, 236);
+            width: 450px;
+            height: 425px;
+            border-radius: 15px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 30px;
+            padding-bottom: 15px;
+            font-style: normal;
+            font-family: "Arial", sans-serif;
+        }
+
+        .paragraph {
+            font-size: 12px;
+            padding-bottom: 10px;
+            font-weight: lighter;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 200px;
+            margin: 0;
+        }
+
+
+        .box1 button {
+            text-align: center;
+            margin-bottom: 8px;
+
+        }
+
+        .login {
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 15px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        input {
+            background-color: rgb(221, 217, 217);
+            color: black;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 13px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .box2 input {
+            text-align: left;
+            margin-bottom: 8px;
+        }
+
+        #end {
+            background-color:rgb(230, 78, 8);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #boss1 {
+            padding: 40px 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="boss">
+        <div id="boss1">
+            <h1>Đăng nhập</h1>
+            <p class="paragraph">Bạn có thể đăng nhập bằng: </p>
+            <div class="box1">
+                <button class="login">Đăng nhập với Google</button>
+            </div>
+            <div class="box1">
+                <button class="login">Đăng nhập với Facebook</button>
+            </div>
+            <p class="paragraph">Hoặc điền các thông tin dưới đây: </p>
+            <div class="box2">
+                <input type="text" placeholder="Email"></input>
+            </div>
+            <div class="box2">
+                <input type="text" placeholder="Mật khẩu"></input>
+            </div>
+            <div class="box3">
+                <button id="end">Đăng nhập</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
